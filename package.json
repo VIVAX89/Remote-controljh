@@ -1,0 +1,17 @@
+{
+  "name": "remote-desktop-relay",
+  "version": "2.0.0",
+  "description": "Self-hosted remote desktop app — WebRTC screen sharing with Socket.IO control",
+  "type": "module",
+  "main": "start.mjs",
+  "scripts": {
+    "start": "node start.mjs",
+    "dev": "node start.mjs"
+  },
+  "dependencies": {
+    "@ngrok/ngrok": "^1.7.0"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
